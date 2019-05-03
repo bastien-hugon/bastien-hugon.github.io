@@ -71,28 +71,5 @@
         </div>
     </div>
 
-    <canvas id="line-chart" width="800" height="450"></canvas>
-    <script>
-    new Chart(document.getElementById("line-chart"), {
-    type: 'line',
-    data: {
-      labels: GlobalArrayX,
-      datasets: [{ 
-          data: GlobalArrayY,
-          label: "Ton nom de courbe",
-          borderColor: "#3e95cd",
-          fill: false
-        }
-      ]
-    },
-    options: {
-      title: {
-        display: true,
-        text: 'Ton nom de graphique'
-      }
-    }
-  });
-  
-    </script>
 </body>
 </html>
